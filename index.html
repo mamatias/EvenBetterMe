@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenBetterMe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>💪 Even Better Me 💪</h1>
+    </header>
+
+    <main>
+        <section id="select-rutina">
+            <h2>Select Your Routine</h2>
+            <select id="dropdownRutinas">
+                <option value="">-- Choose a Routine --</option>
+            </select>
+            <button id="comenzarBtn">START</button>
+        </section>
+
+        <section id="routine-progress" style="display: none;">
+            <h2 id="routine-name"></h2>
+            <p id="routine-description"></p>
+
+            <div id="current-step">
+                <h3 id="step-title"></h3>
+                <p id="step-description"></p>
+                <div id="timer">
+                    Time left: <span id="time-left">0</span> seconds
+                </div>
+            </div>
+            <button id="next-step" style="display: none;">Next Step</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EvenBetterMe</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+    "routines": [
+        {
+            "id": 1,
+            "name": "Basic HIIT Routine",
+            "description": "A simple HIIT routine to get started.",
+            "steps": [
+                {
+                    "step": 1,
+                    "title": "Warm-up",
+                    "description": "Light stretches to get ready.",
+                    "time_secs": 60
+                },
+                {
+                    "step": 2,
+                    "title": "Sprint",
+                    "description": "Run at full speed.",
+                    "time_secs": 30
+                },
+                {
+                    "step": 3,
+                    "title": "Rest",
+                    "description": "Take a short break.",
+                    "time_secs": 15
+                },
+                {
+                    "step": 4,
+                    "title": "Burpees",
+                    "description": "Do rapid burpees.",
+                    "time_secs": 45
+                },
+                {
+                    "step": 5,
+                    "title": "Rest",
+                    "description": "Catch your breath.",
+                    "time_secs": 15
+                },
+                {
+                    "step": 6,
+                    "title": "Plank",
+                    "description": "Hold a plank position.",
+                    "time_secs": 30
+                },
+                {
+                    "step": 7,
+                    "title": "Cooldown",
+                    "description": "Finish with some light stretching.",
+                    "time_secs": 60
+                }
+            ]
+        }
+    ]
+}

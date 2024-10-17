@@ -4,18 +4,21 @@ Welcome to **Even Better Me**, your ultimate tool to manage and time high-intens
 This web application lets you select from predefined routines, start your workout, and follow along as the timer guides you through each step. Whether you're doing sprints, burpees, or simply taking a well-deserved break, the app has you covered. 🙌
 
 ## 🎯 Features
-Choose a Routine: Pick your desired workout from a simple dropdown.
-Timer for Each Step: Each step in your routine has a defined time, perfect for HIIT-style exercises.
-Visual Progress: Watch as the app guides you through each step, helping you stay on track.
-Fully Customizable: Add your own routines, modify existing ones, or create new timed workouts easily!
+
+- **Choose a Routine**: Pick your desired workout from a simple dropdown.
+- **Timer for Each Step**: Each step in your routine has a defined time, perfect for HIIT-style exercises.
+- **Visual Progress**: Watch as the app guides you through each step, helping you stay on track.
+- **Fully Customizable**: Add your own routines, modify existing ones, or create new timed workouts easily!
 
 ## 💻 How It Works
-Select a routine from the dropdown menu.
-Click the START button to begin your workout.
-Follow along as the app shows you each step, with a countdown timer for every phase (exercise, rest, repeat!).
-Once you're done, feel the burn! 🔥💥
+
+1. **Select a routine** from the dropdown menu.
+2. Click the **START** button to begin your workout.
+3. Follow along as the app shows you each step, with a countdown timer for every phase (exercise, rest, repeat!).
+4. Once you're done, feel the burn! 🔥💥
 
 ## 🛠️ Project Structure
+
 ```bash
 /mi-aplicacion-hiit
 │
@@ -26,7 +29,7 @@ Once you're done, feel the burn! 🔥💥
 │   └── app.js                  # The magic happens here! All the JS logic.
 │
 ├── /data
-│   └── rutinas.json            # Your customizable routines in JSON format.
+│   └── routines.json           # Your customizable routines in JSON format.
 │
 ├── /assets
 │   └── (Optional: Any images, icons, or extra assets you need)
@@ -51,20 +54,20 @@ The routines are defined in a simple JSON format. You can find them in data/ruti
 ```json
 {
   "id": 1,
-  "nombre": "Basic HIIT Routine",
-  "descripcion": "A simple HIIT routine to get started.",
-  "pasos": [
+  "name": "Basic HIIT Routine",
+  "description": "A simple HIIT routine to get started.",
+  "steps": [
     {
-      "numero": 1,
-      "titulo": "Warm-up",
-      "descripcion": "Light stretches to get ready.",
-      "tiempo": 60
+      "step": 1,
+      "title": "Warm-up",
+      "description": "Light stretches to get ready.",
+      "time_secs": 60
     },
     {
-      "numero": 2,
-      "titulo": "Sprint",
-      "descripcion": "Run at full speed.",
-      "tiempo": 30
+      "step": 2,
+      "title": "Sprint",
+      "description": "Run at full speed.",
+      "time_secs": 30
     }
   ]
 }

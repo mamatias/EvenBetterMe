@@ -13,5 +13,5 @@ jobs:
             personal_token: ${{ secrets.TOKEN }}
             external_repository: mamatias/mamatias.github.io
             publish_branch: main  # default: gh-pages
-            publish_dir: ./src/public
+            publish_dir: .
             destination_dir: evenbetterme

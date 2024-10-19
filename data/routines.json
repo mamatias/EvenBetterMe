@@ -48,6 +48,116 @@
                     "time_secs": 60
                 }
             ]
+        },
+        {
+            "id": 2,
+            "name": "Kickoxing Fight",
+            "description": "5 minutes, 3 round fight.",
+            "steps": [
+                {
+                    "step": 1,
+                    "title": "Warm-up",
+                    "description": "Light stretches to get ready.",
+                    "time_secs": 30
+                },
+                {
+                    "step": 2,
+                    "title": "1st round",
+                    "description": "Round 1 of 3",
+                    "time_secs": 300
+                },
+                {
+                    "step": 3,
+                    "title": "Rest",
+                    "description": "Rest 1 of 2",
+                    "time_secs": 60
+                },
+                {
+                    "step": 4,
+                    "title": "2nd round",
+                    "description": "Round 2 of 3",
+                    "time_secs": 300
+                },
+                {
+                    "step": 5,
+                    "title": "Rest",
+                    "description": "Rest 2 of 2",
+                    "time_secs": 60
+                },
+                {
+                    "step": 6,
+                    "title": "3rd round",
+                    "description": "Round 3 of 3",
+                    "time_secs": 300
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "MMA Championship Fight",
+            "description": "5 minutes, 5 rounds MMA Championship Fight.",
+            "steps": [
+                {
+                    "step": 1,
+                    "title": "Warm-up",
+                    "description": "Light stretches to get ready.",
+                    "time_secs": 30
+                },
+                {
+                    "step": 2,
+                    "title": "1st round",
+                    "description": "Round 1 of 5",
+                    "time_secs": 300
+                },
+                {
+                    "step": 3,
+                    "title": "Rest",
+                    "description": "Rest 1 of 4",
+                    "time_secs": 60
+                },
+                {
+                    "step": 4,
+                    "title": "2nd round",
+                    "description": "Round 2 of 5",
+                    "time_secs": 300
+                },
+                {
+                    "step": 5,
+                    "title": "Rest",
+                    "description": "Rest 2 of 4",
+                    "time_secs": 60
+                },
+                {
+                    "step": 6,
+                    "title": "3rd round",
+                    "description": "Round 3 of 5",
+                    "time_secs": 300
+                },
+                {
+                    "step": 7,
+                    "title": "Rest",
+                    "description": "Rest 3 of 4",
+                    "time_secs": 60
+                },
+                {
+                    "step": 8,
+                    "title": "4th round",
+                    "description": "Round 4 of 5",
+                    "time_secs": 300
+                },
+                {
+                    "step": 9,
+                    "title": "Rest",
+                    "description": "Rest 4 of 4",
+                    "time_secs": 60
+                },
+                {
+                    "step": 10,
+                    "title": "5th round",
+                    "description": "Round 5 of 5",
+                    "time_secs": 300
+                }
+            ]
         }
     ]
 }

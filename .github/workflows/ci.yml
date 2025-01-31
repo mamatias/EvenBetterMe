@@ -10,7 +10,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '18.18.0'
 
       - name: Install dependencies
         run: npm install
@@ -27,5 +27,5 @@ jobs:
             publish_dir: ./dist  # directorio donde se encuentra la aplicación construida
             destination_dir: evenbetterme
 
-      - name: Clean up dist directory
-        run: rm -rf ./dist
+      # - name: Clean up dist directory
+      #   run: rm -rf ./dist
